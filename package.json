@@ -9,6 +9,11 @@
     "lint": "eslint .",
     "preview": "vite preview"
   },
+  "overrides": {
+    "react-slidedown": {
+      "react": "18.3.1"
+    }
+  },
   "dependencies": {
     "clsx": "^2.1.1",
     "prettier": "^3.3.3",
